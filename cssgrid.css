@@ -70,7 +70,7 @@ li {
     border-radius: 5px;
 }
 .main {
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 .publish h1 {
@@ -82,4 +82,26 @@ li {
 }
 .publish > form {
     display: flex;
+}
+.video {
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.vid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vid img {
+    width: 120px;
+    margin-top: 10px;
+}
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
