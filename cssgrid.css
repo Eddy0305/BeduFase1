@@ -73,3 +73,13 @@ li {
     margin-top: 140px;
     text-align: center;
 }
+.publish h1 {
+    font-family: 'sans-serif';
+    color: #025157;
+}
+.publish p{
+    color: #343434;
+}
+.publish > form {
+    display: flex;
+}
