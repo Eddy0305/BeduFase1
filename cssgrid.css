@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
-    color: #46484c;
-    text-align: center;
+    color: #025157;
+    font-family: "Alegreya", serif;
+    margin-bottom: 24px;
+    
 }
 
 p {
@@ -40,15 +42,13 @@ li {
     width: 15%;
 }
 .navbar {
-    width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
 
 }
 .actions {
-    width: 15%;
-    text-align: left;
+    text-align: right;
     font-size: 14px;
     font-weight: 600;
 }
@@ -83,18 +83,18 @@ li {
 .publish > form {
     display: flex;
 }
-.video {
+.promo {
     display: flex;
     width: 70%;
     margin: 100px auto;
     align-items: center;
 }
-.vid {
+.explanatory-video {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.vid img {
+.explanatory-video img {
     width: 120px;
     margin-top: 10px;
 }
@@ -153,4 +153,62 @@ li {
     position: relative;
     right: -50px;
     height: 80%;
+}
+@media (max-width: 575px) {
+    .navbar, .actions {
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .main {
+        margin-top: 150px;
+    }
+    .banner > img {
+        width: 100%;
+    }
+    .publish > form {
+        flex-direction: column;
+    }
+    .publish > form > div {
+        height: 50px;
+        margin-top: 10px;
+    }
+    .publish > form > div > input {
+        width: 65%;
+    }
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .explanatory-video > video {
+        width: 100%;
+    }
+    .publish {
+        margin-top: 10px;
+    }
+    .publish > h3 {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+    .features {
+        grid-template: repeat(4, 1fr) / 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .feature-image {
+        display: none;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 1200px) {
+
 }
