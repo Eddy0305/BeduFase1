@@ -55,6 +55,9 @@ button {
     padding: 6px 20px;
     margin-left: -10px;
 }
+.texto-boton:hover {
+    background-color: #67b54b;
+}
 .header {
     margin: 40px 20px 20px;
     font-size: 0;
